@@ -3,6 +3,7 @@ import Btn from './Btn'
 
 const QuoteBox = ({randomQuote, randomColor, getRandomAll}) => {
 
+
   // Desestructuracion para simplificar
  const {quote,author} = randomQuote
 
@@ -13,8 +14,8 @@ const QuoteBox = ({randomQuote, randomColor, getRandomAll}) => {
 //Componete que muestra la citas aleatoreas y contiene el componente que Btn que cambia a uno nuevo(aleatorio)
   return (
     <article className='card' style={colorObj}>
-      <p className='card__quote'>{quote}</p>
-      <h1 className='card__author'>{author}</h1>
+      <span className='quot-icon'>"</span><p className='card__quote'>{quote}</p>
+      <h1 className='card__author'>- {author}</h1>
       <Btn randomColor={randomColor} getRandomAll={getRandomAll}/>
     </article>
   )

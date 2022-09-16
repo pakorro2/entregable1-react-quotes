@@ -12,7 +12,7 @@ const Btn = ({randomColor, getRandomAll}) => {
     tiene propiedades (props) en App que a su vez soy usadas en Btn trayendolas desde QuoteBox
   */
   return (
-    <button className='card__btn' style={backgroundObj} onClick={getRandomAll}>&gt;</button>
+    <button className='card__btn' style={backgroundObj} onClick={getRandomAll}>-&gt;</button>
   )
 }
 
