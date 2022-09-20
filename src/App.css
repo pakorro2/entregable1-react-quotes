@@ -59,6 +59,7 @@ p, h1 {
   transition: filter 100ms ease, transform 100ms ease;
   font-family: 'Overpass', sans-serif;
   font-size: 1.3rem;
+  cursor: url(https://img.icons8.com/stickers/64/000000/hand-right-skin-type-1.png), auto;
 }
 .card__btn:hover{
   filter: brightness(1.2);
